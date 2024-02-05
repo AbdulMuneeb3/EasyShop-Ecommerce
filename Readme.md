@@ -15,7 +15,7 @@ This project is a simple web application that allows users to browse through dif
 1. Clone the repository:
 
    ```bash
-   git clone <  >
+   git clone <"gh repo clone AbdulMuneeb3/EasyShop-Ecommerce"  >
    ```
 
 2. Open the project in your preferred code editor.
