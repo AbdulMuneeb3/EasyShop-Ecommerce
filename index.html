@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>EasyShop</title>
+
+</head>
+
+<body>
+   
+    <div class="nav">
+        <div class="radio-inputs">
+            <label class="radio">
+              <input type="radio" name="radio" checked="" >
+              <span class="name" onclick="showProducts('men')">MEN</span>
+            </label>
+            <label class="radio">
+              <input type="radio" name="radio">
+              <span class="name" onclick="showProducts('women')">WOMEN</span>
+            </label>
+                
+            <label class="radio">
+              <input type="radio" name="radio">
+              <span class="name" onclick="showProducts('kids')">KIDS</span>
+            </label>
+          </div>
+        </div>
+
+    <div class="product-card-container" id="product-cards">
+        <!-- Product cards will be displayed here -->
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
